@@ -11,7 +11,7 @@ module.exports = {
 
 function getUser(req, res) {
   console.log('getUser running');
-  return res.json({username: 'jerryc'});
+  return res.ok({username: 'jerryc'});
 }
 
 
